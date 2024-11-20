@@ -1,0 +1,34 @@
+Êþº¾   = [	       )ss/bits/assignment/apigateway/dto/UserDTO username Ljava/lang/String;	   	  password	  
+   role
+     canEqual (Ljava/lang/Object;)Z
+     
+getUsername ()Ljava/lang/String;
+       java/lang/Object equals
+     
+getPassword
+      getRole
+  ! " # hashCode ()I   % & ' makeConcatWithConstants J(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/lang/String;
+  ) * + <init> ()V  - java/io/Serializable Code LineNumberTable LocalVariableTable this +Lss/bits/assignment/apigateway/dto/UserDTO; 
+setUsername (Ljava/lang/String;)V MethodParameters 
+setPassword  setRole o Ljava/lang/Object; other 
+this$username other$username 
+this$password other$password 	this$role 
+other$role 
+StackMapTable PRIME I result 	$username 	$password $role toString 9(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V 
+SourceFile UserDTO.java BootstrapMethods N
+ O P  Q & R $java/lang/invoke/StringConcatFactory ˜(Ljava/lang/invoke/MethodHandles$Lookup;Ljava/lang/String;Ljava/lang/invoke/MethodType;Ljava/lang/String;[Ljava/lang/Object;)Ljava/lang/invoke/CallSite; T 'UserDTO(username=, password=, role=) InnerClasses  W %java/lang/invoke/MethodHandles$Lookup  Y java/lang/invoke/MethodHandles Lookup !    ,        	              .   /     *´ °    /       
+ 0        1 2       .   /     *´  °    /        0        1 2       .   /     *´ 
+°    /        0        1 2    3 4  .   :     *+µ ±    /       	 0        1 2         5       6 4  .   :     *+µ  ±    /       	 0        1 2      	   5    	   7 4  .   :     *+µ 
+±    /       	 0        1 2         5          .  8  	   +*¦ ¬+Á š ¬+À M,*¶ 
+š ¬*¶ N,¶ :-Ç 
+Æ § -¶ š ¬*¶ :,¶ :Ç 
+Æ § 
+¶ š ¬*¶ : ,¶ : Ç 
+Æ § 
+ ¶ š ¬¬    /       	 0   \ 	    1 2      8 9   x : 2  $ i ; 9  * c < 9  G F = 9  M @ > 9  l ! ? 9   r  @ 9  A   +  ü   ý     ý     	ý     	 5    8      .   9     +Á ¬    /       	 0        1 2      : 9  5    :   " #  .  .     U;<=*¶ N;h-Ç +§  -¶  `=*¶ :;hÇ +§ ¶  `=*¶ :;hÇ +§ ¶  `=¬    /       	 0   >    U 1 2    R B C   P D C  
+ K E 9  # 2 F 9  >  G 9  A   w ÿ       ÿ       ÿ         ÿ         ÿ           ÿ             H   .   <     *¶ *¶ *¶ º $  °    /       	 0        1 2    * +  .   /     *· (±    /       
+ 0        1 2    * I  .   \     *· (*+µ *,µ  *-µ 
+±    /       
+ 0   *     1 2            	         5   
+   	     J    K L     M  S U   
+  V X Z 
